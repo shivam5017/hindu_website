@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 1em 0;
+}
+
+.header .logo img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #900C3F;
+    overflow: hidden;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.special-initiatives {
+    margin: 20px 0;
+}
+
+.special-initiatives ul {
+    list-style: square inside;
+    padding-left: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #900C3F;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+/* Initiatives Section */
+.initiatives-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.initiatives-section h2 {
+    color: maroon;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.initiatives-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.initiative-card {
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    overflow: hidden;
+}
+
+.initiative-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.initiative-card .card-header {
+    background-color: maroon;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.initiative-card p {
+    font-size: 14px;
+    color: #333;
+}
+
+.initiative-card a {
+    color: maroon;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.initiative-card a:hover {
+    text-decoration: underline;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    video {
+        width: 100%;
+    }
+}
+
